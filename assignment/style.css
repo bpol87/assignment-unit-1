@@ -1,10 +1,14 @@
 /* Add a background color to the header element */
 header {
     background-color: blueviolet;
+    height: 75px;
+    display: flex;
+    align-items: center;
 }
 /* Add a fun background color to the main element */
 main {
-    background-color: aquamarine;
+    background-color: rgb(177, 190, 249);
+    padding: 25px;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
@@ -23,8 +27,17 @@ img {
 /* Change the font-family of your list */
 li {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkblue;
 }
 /* Add a background color to the footer element */
 footer {
     background-color: blueviolet;
+    height: 75px;
+    display:flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+#container {
+    background-color: aliceblue;
 }
